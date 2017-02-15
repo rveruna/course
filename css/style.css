@@ -1,0 +1,183 @@
+/* ===================================
+1. General
+==================================== */
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #555;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.1em;
+    color: #444;
+    margin-bottom: 2%;
+}
+
+
+/* ===================================
+2. layout
+==================================== */
+
+#wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-bottom: 2%;
+}
+
+.row .row {
+    margin-bottom: 2%;
+}
+
+
+/* ===================================
+3. Header
+==================================== */
+
+
+/* === header === */
+
+
+/* top area */
+
+header .top .row {
+    margin-bottom: 0;
+}
+
+header .top {
+    padding: 20px 0;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+header .top {
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* -- end top area */
+
+header .navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    border: none;
+}
+
+header .navbar-collapse ul.navbar-nav {
+    float: right;
+    margin-right: 0;
+}
+
+header .navbar-default {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .navbar {
+    min-height: 100px;
+}
+
+header .navbar-nav>li {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+header .navbar-nav>li>a {
+    padding-bottom: 6px;
+    padding-top: 5px;
+    margin-left: 2px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+
+/* --- menu --- */
+
+header .navigation {
+    float: right;
+}
+
+header ul.nav li {
+    border: none;
+    margin: 0;
+}
+
+header ul.nav li a {
+    font-size: 12px;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar .nav>li>a {
+    color: #444;
+    text-shadow: none;
+}
+
+
+/* ===================================
+4. Section: call to action
+==================================== */
+
+section.calltoaction {
+    background: #fafafa;
+    padding: 30px 0 0 0;
+}
+
+.cta-btn {
+    float: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+/* ===================================
+5. Section: Content
+==================================== */
+
+#content {
+    position: relative;
+    background: #fff;
+    padding: 60px 0 40px 0;
+}
+
+
+/* --- box --- */
+
+.box {
+    width: 100%;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+
+/* ===================================
+6. Section: Social media
+==================================== */
+
+ul.social-network {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
