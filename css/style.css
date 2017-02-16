@@ -37,6 +37,14 @@ h6 {
     margin-bottom: 2%;
 }
 
+#pictures {
+    width: 100%;
+    background: #fcfcfc;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* ===================================
 3. Header
@@ -159,15 +167,13 @@ header ul.nav li a {
 4. Section: call to action
 ==================================== */
 
-section.calltoaction {
+#calltoaction {
     background: #fafafa;
-    padding: 30px 0 0 0;
 }
 
 .cta-btn {
     float: right;
     padding: 20px;
-    margin-top: 10px;
 }
 
 
