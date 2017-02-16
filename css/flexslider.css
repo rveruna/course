@@ -144,11 +144,9 @@ html[xmlns] .flexslider .slides {
     display: block;
     width: 40px;
     height: 40px;
-    margin: -20px 0 0;
     position: absolute;
-    top: 50%;
+    top: 30%;
     z-index: 10;
-    overflow: hidden;
     opacity: 0;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.8);
@@ -160,12 +158,15 @@ html[xmlns] .flexslider .slides {
     transition: all 0.3s ease-in-out;
 }
 
+.flex-direction-nav a:hover {
+    color: #D30035;
+}
+
 .flex-direction-nav a:before {
     font-family: "flexslider-icon";
-    font-size: 40px;
+    font-size: 1.5em;
     display: inline-block;
     content: '\f001';
-    color: rgba(0, 0, 0, 0.8);
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 
@@ -239,7 +240,7 @@ html[xmlns] .flexslider .slides {
 .flex-control-nav {
     width: 100%;
     position: absolute;
-    bottom: -40px;
+    bottom: 150px;
     text-align: center;
 }
 
@@ -273,8 +274,7 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-control-paging li a.flex-active {
-    background: #000;
-    background: rgba(0, 0, 0, 0.9);
+    background: #D30035;
     cursor: default;
 }
 
@@ -312,6 +312,27 @@ html[xmlns] .flexslider .slides {
 .flex-control-thumbs .flex-active {
     opacity: 1;
     cursor: default;
+}
+
+.flex-caption {
+    width: 25%;
+    padding: 1%;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    font-size: 0.8em;
+    line-height: 18px;
+    position: relative;
+    top: -187px;
+}
+
+.flex-caption h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+li.css a {
+    border-radius: 0;
 }
 
 
