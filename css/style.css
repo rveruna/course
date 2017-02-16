@@ -37,10 +37,6 @@ h6 {
     margin-bottom: 2%;
 }
 
-.row .row {
-    margin-bottom: 2%;
-}
-
 
 /* ===================================
 3. Header
@@ -104,6 +100,18 @@ header .navbar-nav>li>a {
     font-weight: 700;
 }
 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #fff;
+}
+
 
 /* --- menu --- */
 
@@ -126,6 +134,19 @@ header ul.nav li a {
 .navbar .nav>li>a {
     color: #444;
     text-shadow: none;
+}
+
+.navbar .nav>.active>a,
+.navbar .nav>.active>a:hover {
+    background: none;
+    font-weight: 700;
+}
+
+.navbar .nav>.active>a:active,
+.navbar .nav>.active>a:focus {
+    background: none;
+    outline: 0;
+    font-weight: 700;
 }
 
 
@@ -180,4 +201,60 @@ ul.social-network {
 ul.social-network li {
     display: inline;
     margin: 0 5px;
+}
+
+
+/* ===================================
+7. Section: Colour
+==================================== */
+
+a,
+a:hover,
+a:focus,
+a:active,
+.navbar .nav>.active>a,
+.navbar .nav>.active>a:hover,
+.navbar .nav>li>a:hover,
+.navbar .nav>li>a:focus,
+.navbar .nav>.active>a:focus {
+    color: #D30035;
+}
+
+header .nav li a:hover,
+header .nav li a:focus,
+header .nav li.active a,
+header .nav li.active a:hover {
+    color: #D30035;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #D30035;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #D30035;
+}
+
+
+/* buttons */
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    background: #D30035;
+    border: 1px solid #D30035;
+}
+
+.btn-theme {
+    border: 1px solid #D30035;
+    background: #D30035;
+    color: #fff;
+}
+
+.btn-theme:hover {
+    color: #eee;
 }
