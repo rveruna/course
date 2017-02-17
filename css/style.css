@@ -45,6 +45,10 @@ h6 {
     padding: 0;
 }
 
+.aligncenter {
+    text-align: center;
+}
+
 
 /* ===================================
 3. Header
@@ -181,12 +185,6 @@ header ul.nav li a {
 5. Section: Content
 ==================================== */
 
-#content {
-    position: relative;
-    background: #fff;
-    padding: 60px 0 40px 0;
-}
-
 
 /* --- box --- */
 
@@ -194,8 +192,30 @@ header ul.nav li a {
     width: 100%;
 }
 
-.aligncenter {
-    text-align: center;
+.box-gray {
+    background: #f8f8f8;
+    padding: 20px 20px 30px;
+}
+
+.box-gray h4,
+.box-gray i {
+    margin-bottom: 20px;
+}
+
+.box h4 {
+    font-weight: 300;
+}
+
+.box .icon {
+    margin-bottom: 20px;
+}
+
+
+/* ---- parallax ---- */
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
 
@@ -272,52 +292,17 @@ header .nav li.active a:hover {
 
 
 /* =============================
-21. Media queries 
+8. Media queries 
 ============================= */
 
-@media (min-width: 979px) and (max-width: 1200px) {
-    #wrapper.boxed {
-        width: 1000px;
-        margin: 0 auto;
-    }
-}
+@media (min-width: 979px) and (max-width: 1200px) {}
 
-@media (min-width: 768px) and (max-width: 979px) {
-    #wrapper.boxed {
-        width: 784px;
-        margin: 0 auto;
-    }
-    a.detail {
-        background: none;
-        width: 100%;
-    }
-    footer .widget form input#appendedInputButton {
-        display: block;
-        width: 91%;
-        -webkit-border-radius: 4px 4px 4px 4px;
-        -moz-border-radius: 4px 4px 4px 4px;
-        border-radius: 4px 4px 4px 4px;
-    }
-    footer .widget form .input-append .btn {
-        display: block;
-        width: 100%;
-        padding-right: 0;
-        padding-left: 0;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        margin-top: 10px;
-    }
-}
+@media (min-width: 768px) and (max-width: 979px) {}
 
 @media (max-width: 767px) {
     body {
         padding-right: 0;
         padding-left: 0;
-    }
-    #wrapper.boxed {
-        width: 90%;
-        margin: 0 auto;
     }
     .navbar-brand {
         margin-top: 0px;
@@ -361,9 +346,6 @@ header .nav li.active a:hover {
     }
     #sub-footer ul.social-network {
         float: left;
-    }
-    [class*="span"] {
-        margin-bottom: 20px;
     }
 }
 
