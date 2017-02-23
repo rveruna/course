@@ -219,6 +219,48 @@ header ul.nav li a {
 }
 
 
+/* testimonial slide */
+
+.testimonialslide {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.testimonialslide.flexslider {
+    background: transparent;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+.testimonialslide ul li blockquote {
+    border-left: none;
+}
+
+.testimonialslide ul li h4 {
+    font-weight: 900;
+}
+
+.testimonialslide ul li h4 span {
+    font-weight: 400;
+}
+
+.testimonialslide .flex-control-nav {
+    bottom: 0px;
+}
+
+.book {
+    max-height: 300px;
+    width: 100%;
+}
+
+
 /* ===================================
 6. Section: Social media
 ==================================== */
