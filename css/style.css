@@ -261,8 +261,87 @@ header ul.nav li a {
 }
 
 
+/* ===============================
+6. Footer
+================================ */
+
+footer {
+    background: #f2f2f2;
+}
+
+#sub-footer {
+    border-top: 1px solid #ddd;
+    background: #f7f7f7;
+}
+
+footer {
+    padding: 50px 0 0 0;
+}
+
+footer a {
+    color: #666;
+}
+
+footer a:hover {
+    color: #444;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+    color: #666;
+}
+
+footer address {
+    line-height: 1.6em;
+}
+
+footer h5 a:hover,
+footer a:hover {
+    text-decoration: none;
+}
+
+ul.social-network {
+    list-style: none;
+    margin: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+footer ul.social-network li i {
+    font-size: 1.3em;
+}
+
+#sub-footer {
+    text-shadow: none;
+    padding: 0;
+    padding-top: 30px;
+    margin: 20px 0 0 0;
+}
+
+#sub-footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    text-align: left;
+    font-size: 12px;
+}
+
+#sub-footer ul.social-network {
+    float: right;
+}
+
+
 /* ===================================
-6. Section: Social media
+7. Section: Social media
 ==================================== */
 
 ul.social-network {
@@ -278,7 +357,7 @@ ul.social-network li {
 
 
 /* ===================================
-7. Section: Colour
+8. Section: Colour
 ==================================== */
 
 a,
@@ -334,7 +413,7 @@ header .nav li.active a:hover {
 
 
 /* =============================
-8. Media queries 
+9. Media queries 
 ============================= */
 
 @media (min-width: 979px) and (max-width: 1200px) {}
