@@ -167,6 +167,37 @@ header ul.nav li a {
 }
 
 
+/* --- breadcrumbs --- */
+
+#inner-headline ul.breadcrumb {
+    margin: 30px 0 0;
+    float: left;
+}
+
+#inner-headline ul.breadcrumb li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#inner-headline ul.breadcrumb li {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#inner-headline ul.breadcrumb li i {
+    color: #fff;
+}
+
+#inner-headline ul.breadcrumb li a {
+    color: #fff;
+}
+
+ul.breadcrumb li a:hover {
+    text-decoration: none;
+}
+
+
 /* ===================================
 4. Section: call to action
 ==================================== */
@@ -241,6 +272,7 @@ header ul.nav li a {
 
 .testimonialslide ul li blockquote {
     border-left: none;
+    padding: 10px 55px;
 }
 
 .testimonialslide ul li h4 {
@@ -409,6 +441,10 @@ header .nav li.active a:hover {
 
 .btn-theme:hover {
     color: #eee;
+}
+
+.breadcrumb {
+    background-color: #D30035;
 }
 
 
